@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="بيت الروايات يضم العديد من الروايات التى تناسب اذواقكم">
+    <title>بيت الروايات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="formse">
+        <form method="post">
+        
+            <br>
+           <h1>اطلب كتابك</h1>
+           
+            <label for="name 1">الاسم رباعي </label>
+            <input type="text" id="namefoll" name="namefoll" required>
+  
+            <label for="email 2">البريد الإلكتروني</label>
+            <input type="email" id="email 2" name="email 2" required>
+  
+            <label for="area">منطقة الشحن </label>
+            <select name="area" id="area" required>
+              <optgroup label="غزة">
+                  <option value="A1">جباليا</option>
+                  <option value="A2">الصبرة</option>
+                  <option value="A3">الشيخ رضوان</option>
+              </optgroup>
+              <optgroup label="الوسطى">
+                  <option value="A4">دير البلح </option>
+                  <option value="A5"> الزوايدة</option>
+                  <option value="A6">النصيرات</option>
+              </optgroup>
+              <optgroup label="خانيونس">
+                  <option value="A7">الاوروبي</option>
+                  <option value="A8">المشروع</option>
+                  <option value="A9">مستشفى ناصر</option>
+              </optgroup>
+              <optgroup label="رفح">
+                  <option value="A10">الجنينة</option>
+                  <option value="A11">الشابورة</option>
+                  <option value="A12">خربة العدس</option>
+              </optgroup>
+            </select>
+            <label for="place">العنوان بالتفصيل</label>
+          <input type="text" id="place" name="place" required>
+
+          <label for="phone">رقم جوال أساسي</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="phone2">رقم جوال احتياطي</label>
+          <input type="tel" id="phone2" name="phone2" required>
+           
+          <label for="QIT">الكمية</label>
+          <input type="number" id="QIT" name="QIT" required min="1" max="7" value="1">
+          <button type="submit">إرسال</button>
+        </form>
+
+
+    </section>
+</body>
